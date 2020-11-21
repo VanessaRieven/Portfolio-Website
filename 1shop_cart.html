@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="utf-8">
+	<title>Vanessa Rieven</title>
+	<link rel="icon" href="img/icons/pena.png" type="image/icon type">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
+	<link rel="stylesheet" type="text/css" href="css/colorbox.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css'>
+	<link rel="stylesheet" type="text/css" href="scss/style.css">
+	<link rel="stylesheet" type="text/css" href="scss/tablet.css" media="screen and (max-width: 1024px)">
+	<link rel="stylesheet" type="text/css" href="scss/mobile.css" media="screen and (max-width: 600px)">
+</head>
+<body> 
+
+	<!-- Intro -->
+	<div class="myInfo" id="myInfo">
+		<div class="alinha3">
+			<p style="font-size: 30px; font-family: Bebas">INFO</p>
+			<a href="javascript:void(0)" onclick="closeInfo()"><img class="closebtn" src="img/icons/close.svg"></a>
+		</div>
+		<p>&bull; All prints and originals for sale do NOT include the frame (frame is only for preview purposes)</p>
+		<p>&bull; All originals are pencil drawn and fixed with proper fixative, still the drawing should be properly protected either with a plastic sleeve or a frame to avoid humidity and avoid yellow deteriorating</p>
+		<p>&bull; Every print/original will be properly packaged with a plastic sleeve and a Non Bendable envelope.</p>
+		<p>&bull; Every print/original will be signed.</p>
+		<p>&bull; Any quotation request is given when requesting a custom order.</p>
+		<p>&bull; Custom orders or requests should be asked by e-mail first to vanessa.sofiacb@gmail.com</p>	
+		<br><br>
+		<p style="font-size: 30px; font-family: Bebas">SHIPPING AND RETURNS</p>
+		<p>&bull; After payment, the orders will be shipped within 2 business days</p>
+		<p>&bull; Every order will be shipped by registered mail with tracking number which will allow you to check online every step of the shippment and see where your order is located</p>
+		<p>&bull; Deliver may very depending on the customs of your country.</p>
+		<p>&bull; Any possible customs payment is not included.</p>
+		<p>&bull; Returns of Custom Orders won't be accepted, during the process I'll keep you uptaded with photos of the result to avoid this situations.</p>
+		<p>&bull; Returns of prints and Originals are acceptable but the client has to pay for the return shipping</p>
+	</div>
+
+	<div class="artigos">
+		<div class="barraalign">
+			<div class="dropdown">
+				<div class="custom-dropdown" id="customDropdown">
+					<label id="filter_all">ALL</label>
+					<label id="filter_originals">ORIGINALS</label>
+					<label id="filter_prints">PRINTS</label>
+				</div>
+			</div> 
+
+			<div class="shoppingcart">
+				<img class="infoicon" align="right" onclick="openInfo()" src="img/icons/ic_info_24px.png">
+				<img class="vazio" align="right" onclick="openCart()" src="img/icons/cart.svg">
+				<span class="bananas">0</span>
+			</div>
+		</div>
+		<div class="shop_artigos">
+			<div class="artigo <?php echo $linha['categoria_desenho'] ?>">
+				<div class="grey">
+					<img alt="Drawing" src="img/shop/<?php echo $linha['thumbnail_desenho']?>">
+					<a href='addtocart.php?id_desenho=<?php echo $linha['id_desenho'] ?>'><button>ADD TO CART</button></a>
+				</div>
+				<h3></h3>
+				<h3></h3>
+			</div>
+		</div>
+	</div>
+
+	<div onclick="closeCart()" class="bg-overlay"></div>
+		<div class="overlay-cart" id="overlay-cart">
+			<div class="header-cart">
+				<h3>CART</h3><a href="javascript:void(0)" class="closebtn" onclick="closeCart()"><i class="fas fa-times"></i></a>
+			</div>
+			<div class="order">
+				<div>
+					<img alt="Drawing" width="220px" src="img/shop/<?php echo $linhaDesenho['thumbnail_desenho']?>">
+				</div>
+				<div class="alinha4 <?php echo $linhaDesenho['categoria_desenho']?>">
+					<p class="Original-order <?php echo $linhaDesenho['categoria_desenho']?>"><?php echo $linhaDesenho['categoria_desenho']?></p>
+					<p><?php echo $linhaDesenho['nome_desenho'].' '.$linhaDesenho['tamanho_desenho']?></p>
+					<div class="euro"><p class="preco_final"><?php echo $linhaDesenho['preco_desenho'] ?>.00</p><p>€</p></div>
+					<div class="quantidade">
+						<span class="qt-minus"><i class="fas fa-angle-down"></i></span>
+						<span class="qt">1</span>
+						<span class="qt-plus"><i class="fas fa-angle-up"></i></span>
+					</div>
+
+					<a href=""><p class="remove">REMOVE</p></a> 
+				</div>
+			</div>
+			<br>
+			<div class="bottom_checkout">
+				<div class="alinha3"><p>SHIPPING:</p> <p class="shipping_cost">5.99€</p></div>
+				<div class="alinha3"><button id="checkoutButton"><p>CHECKOUT</p><p class="atualiza_valor">0</p></button></div>
+			</div>
+		</div>
+	</div>
+</div>
+<footer>
+	<div class="footer1">
+		<a href="https://www.instagram.com/vanessarievenart/" target="_blank"><i class="fab fa-instagram"></i></a>
+		<a href="https://www.youtube.com/channel/UC-nB7H4wBxB2BtGF5eOvgow?view_as=subscriber" target="_blank"><i class="fab fa-youtube"></i></a>
+		<a href="https://www.linkedin.com/in/vanessarieven/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+		<a href="https://www.behance.net/vanessarieven" target="_blank"><i class="fab fa-behance"></i></a>
+		<a href="mailto:vanessa.sofiacb@gmail.com" target="_top"><i class="fas fa-envelope"></i></a>
+	</div>
+	<div class="footer2">
+		COPYRIGHT © VANESSA RIEVEN
+	</div>
+</footer>
+</body>
+<script src='js/jquery.js'></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/jquery.colorbox.js" type="text/javascript"></script>
+<script src="slick/slick.min.js"></script>
+<script src="js/main.js"></script> 
+<script src="js/shop.js"></script> 
+<script src="js/shop3_total.js"></script> 
+<script src="js/logo.js"></script>
+</html>

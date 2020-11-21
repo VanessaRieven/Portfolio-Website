@@ -1,0 +1,296 @@
+/*-------------------------------------------------------------------------------------------------------------
+HEADER
+--------------------------------------------------------------------------------------------------------------*/
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Xampp\/htdocs\/Vanessa\/Rieven\/scss\/tablet\.scss}line{font-family:\0000356}}
+#menu_desktop {
+  display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Xampp\/htdocs\/Vanessa\/Rieven\/scss\/tablet\.scss}line{font-family:\0000360}}
+#menuToggle {
+  display: block;
+  right: 30px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Xampp\/htdocs\/Vanessa\/Rieven\/scss\/tablet\.scss}line{font-family:\0000365}}
+.menu-open {
+  justify-content: center;
+  align-content: center;
+  display: none;
+  width: 50%;
+  text-align: center;
+  right: 0;
+  left: auto;
+  padding-top: 30%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Xampp\/htdocs\/Vanessa\/Rieven\/scss\/tablet\.scss}line{font-family:\0000377}}
+header {
+  padding: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Xampp\/htdocs\/Vanessa\/Rieven\/scss\/tablet\.scss}line{font-family:\0000381}}
+.moldura {
+  position: absolute;
+  left: 30px; }
+
+/*-------------------------------------------------------------------------------------------------------------
+FOOTER
+--------------------------------------------------------------------------------------------------------------*/
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Xampp\/htdocs\/Vanessa\/Rieven\/scss\/tablet\.scss}line{font-family:\0000392}}
+footer {
+  padding: 5px 50px !important; }
+
+/*-------------------------------------------------------------------------------------------------------------
+ Grid 
+ --------------------------------------------------------------------------------------------------------------*/
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Xampp\/htdocs\/Vanessa\/Rieven\/scss\/tablet\.scss}line{font-family:\00003100}}
+.row {
+  padding: 20px 20px; }
+
+ /*-------------------------------------------------------------------------------------------------------------
+PROJECTS
+ --------------------------------------------------------------------------------------------------------------*/
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Xampp\/htdocs\/Vanessa\/Rieven\/scss\/tablet\.scss}line{font-family:\00003109}}
+.Projects {
+  padding: 150px 50px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Xampp\/htdocs\/Vanessa\/Rieven\/scss\/tablet\.scss}line{font-family:\00003113}}
+.projetos {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 50px;
+  padding: 60px 0px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Xampp\/htdocs\/Vanessa\/Rieven\/scss\/tablet\.scss}line{font-family:\00003119}}
+  .projetos .snip1573 {
+    max-width: calc(50% - 60px);
+    margin: 30px 30px;
+    border: solid #efefef 8px;
+    -webkit-box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.55);
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all 0.35s ease;
+    transition: all 0.35s ease;
+    background: #efefef; }
+
+/*-------------------------------------------------------------------------------------------------------------
+ ABOUT ME
+ --------------------------------------------------------------------------------------------------------------*/
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Xampp\/htdocs\/Vanessa\/Rieven\/scss\/tablet\.scss}line{font-family:\00003144}}
+.about-me {
+  padding: 100px 50px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Xampp\/htdocs\/Vanessa\/Rieven\/scss\/tablet\.scss}line{font-family:\00003146}}
+  .about-me p {
+    font-size: 12px;
+    padding-top: 5px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Xampp\/htdocs\/Vanessa\/Rieven\/scss\/tablet\.scss}line{font-family:\00003150}}
+  .about-me .whoami {
+    font-size: 20px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Xampp\/htdocs\/Vanessa\/Rieven\/scss\/tablet\.scss}line{font-family:\00003155}}
+.icons {
+  padding: 0 50px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Xampp\/htdocs\/Vanessa\/Rieven\/scss\/tablet\.scss}line{font-family:\00003158}}
+  .icons .blocktext {
+    font-size: 10px; }
+
+/*-------------------------------------------------------------------------------------------------------------
+Separadores
+--------------------------------------------------------------------------------------------------------------*/
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Xampp\/htdocs\/Vanessa\/Rieven\/scss\/tablet\.scss}line{font-family:\00003172}}
+.bgimg-15 {
+  height: 50px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Xampp\/htdocs\/Vanessa\/Rieven\/scss\/tablet\.scss}line{font-family:\00003178}}
+.bgimg-341 .bgimg-34 {
+  height: 50px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Xampp\/htdocs\/Vanessa\/Rieven\/scss\/tablet\.scss}line{font-family:\00003183}}
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
+  background-image: none; }
+
+/*---------------------------------------------------------
+                          SHOP1
+----------------------------------------------------------*/
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Xampp\/htdocs\/Vanessa\/Rieven\/scss\/tablet\.scss}line{font-family:\00003191}}
+.overlay-cart {
+  width: 50%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Xampp\/htdocs\/Vanessa\/Rieven\/scss\/tablet\.scss}line{font-family:\00003192}}
+.artigos {
+  padding: 90px 20px 0 20px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Xampp\/htdocs\/Vanessa\/Rieven\/scss\/tablet\.scss}line{font-family:\00003193}}
+.artigo {
+  width: 47%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Xampp\/htdocs\/Vanessa\/Rieven\/scss\/tablet\.scss}line{font-family:\00003194}}
+.barraalign {
+  padding: 0 0 0 20px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Xampp\/htdocs\/Vanessa\/Rieven\/scss\/tablet\.scss}line{font-family:\00003195}}
+.myInfo {
+  padding: 120px 50px 0 50px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Xampp\/htdocs\/Vanessa\/Rieven\/scss\/tablet\.scss}line{font-family:\00003196}}
+.dropdown {
+  margin-left: 27px; }
+
+/*---------------------------------------------------------
+                          SHOP2
+----------------------------------------------------------*/
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Xampp\/htdocs\/Vanessa\/Rieven\/scss\/tablet\.scss}line{font-family:\00003201}}
+.total {
+  margin: 100px 50px 0 50px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Xampp\/htdocs\/Vanessa\/Rieven\/scss\/tablet\.scss}line{font-family:\00003204}}
+  .total p {
+    font-size: 12px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Xampp\/htdocs\/Vanessa\/Rieven\/scss\/tablet\.scss}line{font-family:\00003205}}
+  .total .cart {
+    width: 60%;
+    padding: 15px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Xampp\/htdocs\/Vanessa\/Rieven\/scss\/tablet\.scss}line{font-family:\00003206}}
+    .total .cart h3 {
+      font-size: 30px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Xampp\/htdocs\/Vanessa\/Rieven\/scss\/tablet\.scss}line{font-family:\00003207}}
+  .total .payment {
+    width: 40%;
+    padding: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Xampp\/htdocs\/Vanessa\/Rieven\/scss\/tablet\.scss}line{font-family:\00003208}}
+    .total .payment h3 {
+      font-size: 30px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Xampp\/htdocs\/Vanessa\/Rieven\/scss\/tablet\.scss}line{font-family:\00003211}}
+#formulario {
+  border: none; }
+
+/*---------------------------------------------------------
+                          SHOP3
+----------------------------------------------------------*/
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Xampp\/htdocs\/Vanessa\/Rieven\/scss\/tablet\.scss}line{font-family:\00003220}}
+.confirm_your_info {
+  padding: 100px 5% 0 5%;
+  flex-direction: column; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Xampp\/htdocs\/Vanessa\/Rieven\/scss\/tablet\.scss}line{font-family:\00003223}}
+  .confirm_your_info h3 {
+    font-size: 30px;
+    margin-bottom: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Xampp\/htdocs\/Vanessa\/Rieven\/scss\/tablet\.scss}line{font-family:\00003228}}
+  .confirm_your_info hr {
+    border: 0.5px solid #777;
+    display: block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Xampp\/htdocs\/Vanessa\/Rieven\/scss\/tablet\.scss}line{font-family:\00003233}}
+  .confirm_your_info .info_verification {
+    display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Xampp\/htdocs\/Vanessa\/Rieven\/scss\/tablet\.scss}line{font-family:\00003238}}
+.info_verification-mobile {
+  width: 100%;
+  text-align: center;
+  padding-right: 0px;
+  font-family: 'Montserrat';
+  font-size: 14px;
+  display: block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Xampp\/htdocs\/Vanessa\/Rieven\/scss\/tablet\.scss}line{font-family:\00003246}}
+  .info_verification-mobile p {
+    line-height: 0.8; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Xampp\/htdocs\/Vanessa\/Rieven\/scss\/tablet\.scss}line{font-family:\00003253}}
+.bold {
+  font-weight: bold; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Xampp\/htdocs\/Vanessa\/Rieven\/scss\/tablet\.scss}line{font-family:\00003257}}
+.info_verification2 {
+  width: 100%;
+  border: none;
+  padding-left: 0px;
+  margin-top: 100px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Xampp\/htdocs\/Vanessa\/Rieven\/scss\/tablet\.scss}line{font-family:\00003262}}
+  .info_verification2 .linhalateral {
+    padding-left: 0px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Xampp\/htdocs\/Vanessa\/Rieven\/scss\/tablet\.scss}line{font-family:\00003265}}
+  .info_verification2 .totaldacompra {
+    padding: 0 0 0 0px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Xampp\/htdocs\/Vanessa\/Rieven\/scss\/tablet\.scss}line{font-family:\00003270}}
+.links {
+  display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Xampp\/htdocs\/Vanessa\/Rieven\/scss\/tablet\.scss}line{font-family:\00003272}}
+.links_tablet {
+  display: flex;
+  flex-direction: column;
+  margin: 80px 100px 80px 100px;
+  text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Xampp\/htdocs\/Vanessa\/Rieven\/scss\/tablet\.scss}line{font-family:\00003277}}
+  .links_tablet p {
+    /*BACK TO CART*/
+    padding-top: 30px;
+    text-decoration: underline;
+    font-weight: bold;
+    font-family: 'Montserrat';
+    color: #111; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Xampp\/htdocs\/Vanessa\/Rieven\/scss\/tablet\.scss}line{font-family:\00003284}}
+  .links_tablet button {
+    border: none;
+    color: #111;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    letter-spacing: 0.2em;
+    position: relative;
+    padding: 15px 32px;
+    font-size: 14px;
+    display: inline-block;
+    vertical-align: middle;
+    text-decoration: none;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(245, 195, 195, 0);
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    margin-top: 5px;
+    background-color: #111111;
+    color: white; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Xampp\/htdocs\/Vanessa\/Rieven\/scss\/tablet\.scss}line{font-family:\0000321}}
+    .links_tablet button:before {
+      content: "";
+      position: absolute;
+      z-index: -1;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: #111;
+      -webkit-transform: scaleX(0);
+      transform: scaleX(0);
+      -webkit-transform-origin: 0 50%;
+      transform-origin: 0 50%;
+      -webkit-transition-property: transform;
+      transition-property: transform;
+      -webkit-transition-duration: 0.3s;
+      transition-duration: 0.3s;
+      -webkit-transition-timing-function: ease-out;
+      transition-timing-function: ease-out; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Xampp\/htdocs\/Vanessa\/Rieven\/scss\/tablet\.scss}line{font-family:\0000342}}
+    .links_tablet button:hover, .links_tablet button:focus, .links_tablet button:active {
+      color: white; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Xampp\/htdocs\/Vanessa\/Rieven\/scss\/tablet\.scss}line{font-family:\0000346}}
+    .links_tablet button:hover:before, .links_tablet button:focus:before, .links_tablet button:active:before {
+      -webkit-transform: scaleX(1);
+      transform: scaleX(1); }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Xampp\/htdocs\/Vanessa\/Rieven\/scss\/tablet\.scss}line{font-family:\00003289}}
+    .links_tablet button:before {
+      border: 1px solid #777;
+      background: #EFEFEF;
+      color: #111; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Xampp\/htdocs\/Vanessa\/Rieven\/scss\/tablet\.scss}line{font-family:\00003294}}
+    .links_tablet button:hover, .links_tablet button:focus, .links_tablet button:active {
+      color: #111; }
+
+/*# sourceMappingURL=tablet.css.map */
