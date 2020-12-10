@@ -10,14 +10,16 @@
     <li><a class="scroll scroll-5" href="#section-5">Blog</a></li>
   </ul>
 </nav>
+
 <section class="section-1" id="section-1">
 	<div>
-		<h2>Who Am I?</h2>
+    <div class="typewriter">
+      <h2>Who Am I?</h2>
+    </div>
 		<hr>
 		<p>
 			It's always funny when someone asks who you are. Am I a Developer? Or am I a student? An artist maybe? Oh wait! Maybe a writer?
 			I am many things and nothing, I simply enjoy doing many things in my life, and here is where I hope I can showcase all my passions and introduce myself to whoever wishes to know me.
-
 		</p>
 		
 	</div>
@@ -34,8 +36,8 @@
  
 </section>
 <section class="section-3" id="section-3">
-  <h2>3D</h2>
-  <p>This is what I do. I love what I do.</p>
+    <h2>3D</h2>
+    <p>This is what I do. I love what I do.</p>
 </section>
 <section class="section-4" id="section-4">
   <h2>Projects</h2>
