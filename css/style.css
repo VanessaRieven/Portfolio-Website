@@ -1,347 +1,145 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
-/*-------------------------------------------------------------------------------------------------------------
- PAGE INTRO  
- --------------------------------------------------------------------------------------------------------------*/
-.introdapagina {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100vh;
-  background: #111;
-  z-index: 9999; }
-  .introdapagina .loading-text {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-    text-align: center;
-    width: 100%;
-    height: 100px;
-    line-height: 100px;
-    z-index: 9999; }
-    .introdapagina .loading-text span {
-      display: inline-block;
-      margin: 0 5px;
-      color: #fff;
-      font-family: "Bebas"; }
-      .introdapagina .loading-text span:nth-child(1) {
-        filter: blur(0px);
-        animation: blur-text 1s 0s infinite linear alternate; }
-      .introdapagina .loading-text span:nth-child(2) {
-        filter: blur(0px);
-        animation: blur-text 1s 0.2s infinite linear alternate; }
-      .introdapagina .loading-text span:nth-child(3) {
-        filter: blur(0px);
-        animation: blur-text 1s 0.4s infinite linear alternate; }
-      .introdapagina .loading-text span:nth-child(4) {
-        filter: blur(0px);
-        animation: blur-text 1s 0.6s infinite linear alternate; }
-      .introdapagina .loading-text span:nth-child(5) {
-        filter: blur(0px);
-        animation: blur-text 1s 0.8s infinite linear alternate; }
-      .introdapagina .loading-text span:nth-child(6) {
-        filter: blur(0px);
-        animation: blur-text 1s 1s infinite linear alternate; }
-      .introdapagina .loading-text span:nth-child(7) {
-        filter: blur(0px);
-        animation: blur-text 1s 1.2s infinite linear alternate; }
-      .introdapagina .loading-text span:nth-child(8) {
-        filter: blur(0px);
-        animation: blur-text 1s 1.4s infinite linear alternate; }
-      .introdapagina .loading-text span:nth-child(9) {
-        filter: blur(0px);
-        animation: blur-text 1s 1.6s infinite linear alternate; }
-      .introdapagina .loading-text span:nth-child(10) {
-        filter: blur(0px);
-        animation: blur-text 1s 1.8s infinite linear alternate; }
-      .introdapagina .loading-text span:nth-child(11) {
-        filter: blur(0px);
-        animation: blur-text 1s 2s infinite linear alternate; }
-      .introdapagina .loading-text span:nth-child(12) {
-        filter: blur(0px);
-        animation: blur-text 1s 2.2s infinite linear alternate; }
-      .introdapagina .loading-text span:nth-child(13) {
-        filter: blur(0px);
-        animation: blur-text 1s 2.4s infinite linear alternate; }
-      .introdapagina .loading-text span:nth-child(14) {
-        filter: blur(0px);
-        animation: blur-text 1s 2.6s infinite linear alternate; }
-      .introdapagina .loading-text span:nth-child(15) {
-        filter: blur(0px);
-        animation: blur-text 1s 2.8s infinite linear alternate; }
-      .introdapagina .loading-text span:nth-child(16) {
-        filter: blur(0px);
-        animation: blur-text 1s 3s infinite linear alternate; }
-      .introdapagina .loading-text span:nth-child(17) {
-        filter: blur(0px);
-        animation: blur-text 1s 3.2s infinite linear alternate; }
-      .introdapagina .loading-text span:nth-child(18) {
-        filter: blur(0px);
-        animation: blur-text 1s 3.4s infinite linear alternate; }
-      .introdapagina .loading-text span:nth-child(19) {
-        filter: blur(0px);
-        animation: blur-text 1s 3.6s infinite linear alternate; }
-      .introdapagina .loading-text span:nth-child(20) {
-        filter: blur(0px);
-        animation: blur-text 1s 3.8s infinite linear alternate; }
-      .introdapagina .loading-text span:nth-child(21) {
-        filter: blur(0px);
-        animation: blur-text 1s 4s infinite linear alternate; }
-      .introdapagina .loading-text span:nth-child(22) {
-        filter: blur(0px);
-        animation: blur-text 1s 4.2s infinite linear alternate; }
-      .introdapagina .loading-text span:nth-child(23) {
-        filter: blur(0px);
-        animation: blur-text 1s 4.4s infinite linear alternate; }
-      .introdapagina .loading-text span:nth-child(24) {
-        filter: blur(0px);
-        animation: blur-text 1s 4.6s infinite linear alternate; }
-      .introdapagina .loading-text span:nth-child(25) {
-        filter: blur(0px);
-        animation: blur-text 1s 4.8s infinite linear alternate; }
-      .introdapagina .loading-text span:nth-child(26) {
-        filter: blur(0px);
-        animation: blur-text 1s 5s infinite linear alternate; }
-      .introdapagina .loading-text span:nth-child(27) {
-        filter: blur(0px);
-        animation: blur-text 1s 5.2s infinite linear alternate; }
-
-@keyframes blur-text {
-  0% {
-    filter: blur(0px); }
-  100% {
-    filter: blur(4px); } }
-*, *:before, *:after {
-  box-sizing: border-box;
-  outline: none; }
-
-html {
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 16px;
-  font-smooth: auto;
-  font-weight: 300;
-  line-height: 1.5;
-  color: #fff;
-  margin: 0;
-  padding: 0; }
-
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Frank+Ruhl+Libre:wght@300;400;500&family=Karla:wght@300;400;500&family=Montserrat:wght@300;400;500;600;700;800&display=swap");
 body {
-  position: relative;
-  overflow: hidden;
-  margin: 0;
-  padding: 0;
-  scroll-behavior: smooth;
-  font-family: "Montserrat", sans-serif !important;
-  background: #0F2027;
-  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: radial-gradient(to right, #2C5364, #203A43, #0F2027);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
+  background-color: #efefef;
+  padding-right: 100px;
+}
 
-h2 {
-  margin: 0;
-  padding: 0;
-  color: whitesmoke;
-  font-size: 32px;
-  letter-spacing: 1px;
-  line-height: 1;
-  text-transform: uppercase; }
-
-a {
-  color: whitesmoke;
-  text-decoration: none;
-  transition: 0.25s; }
-
-button {
-  border: none; }
-
-.logo {
-  position: fixed;
-  top: 0;
-  left: 0;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 40px;
-  height: 40px;
-  padding: 10px;
-  background-color: rgba(245, 245, 245, 0.1);
-  z-index: 9998; }
-  .logo span.icon {
-    position: relative;
-    display: block;
-    width: 20px;
-    height: 20px;
-    border: 2px solid whitesmoke;
-    border-radius: 50%; }
-
-.hamburger {
+body nav {
+  height: 100%;
+  width: 60px;
   position: fixed;
   top: 0;
   right: 0;
+  background-color: white;
+  overflow-x: hidden;
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 40px;
-  height: 40px;
-  background: rgba(255, 255, 255, 0.1);
-  z-index: 9999; }
-  .hamburger.is-open span {
-    height: 0; }
-    .hamburger.is-open span:before {
-      transform: rotate(45deg); }
-    .hamburger.is-open span:after {
-      transform: rotate(-45deg); }
-  .hamburger span {
-    position: relative;
-    display: block;
-    width: 80%;
-    height: 2px;
-    background-color: whitesmoke;
-    border-radius: 99px; }
-    .hamburger span:before, .hamburger span:after {
-      position: absolute;
-      content: '';
-      left: 0;
-      width: 100%;
-      height: 2px;
-      background-color: whitesmoke;
-      transition: 0.25s; }
-    .hamburger span:before {
-      transform: translateY(-5px); }
-    .hamburger span:after {
-      transform: translateY(5px); }
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
 
-nav.main ul {
+body nav a {
+  font-family: "Karla", sans-serif;
+  color: #1C1C21;
+  text-transform: uppercase;
+  -webkit-writing-mode: vertical-rl;
+      -ms-writing-mode: tb-rl;
+          writing-mode: vertical-rl;
+  text-orientation: mixed;
+  font-size: 12px;
+  -webkit-transform: rotate(-180deg);
+  font-weight: 500;
+}
+
+body nav a:hover {
+  color: #1C1C21;
+  text-decoration: none;
+}
+
+body #socialmedia {
+  height: 100%;
+  width: 40px;
   position: fixed;
   top: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 100vh;
-  margin: 0;
+  left: 0;
+  overflow-x: hidden;
   padding: 20px;
-  background-color: rgba(0, 0, 0, 0.9);
-  list-style-type: none;
-  transition: 0.25s;
-  opacity: 0;
-  visibility: hidden;
-  z-index: 9998; }
-  nav.main ul.is-open {
-    opacity: 1;
-    visibility: visible; }
-    nav.main ul.is-open li {
-      opacity: 1; }
-      nav.main ul.is-open li:nth-of-type(odd) {
-        transform: translateX(0%); }
-      nav.main ul.is-open li:nth-of-type(even) {
-        transform: translateX(0%); }
-  nav.main ul li {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    margin-bottom: 2px;
-    opacity: 0;
-    transition: 0.25s; }
-    nav.main ul li:before {
-      position: absolute;
-      content: '';
-      width: 0;
-      height: 100%;
-      background-color: transparent;
-      transition: 0.25s; }
-    nav.main ul li:nth-of-type(odd) {
-      transform: translateX(-50%); }
-      nav.main ul li:nth-of-type(odd):before {
-        left: 0; }
-    nav.main ul li:nth-of-type(even) {
-      transform: translateX(50%); }
-      nav.main ul li:nth-of-type(even):before {
-        right: 0; }
-    nav.main ul li:hover:nth-of-type(odd):before, nav.main ul li:hover:nth-of-type(even):before {
-      width: 100%; }
-    nav.main ul li.menu-title {
-      color: white;
-      font-size: 24px;
-      font-weight: bold; }
-    nav.main ul li a {
-      position: relative;
-      width: 100%;
-      font-size: 4vh;
-      font-weight: bold;
-      text-align: center;
-      text-decoration: none;
-      font-family: 'Montserrat', sans-serif;
-      letter-spacing: 6px;
-      text-transform: uppercase;
-      margin: 10px; }
-      nav.main ul li a:hover {
-        color: #2C5364; }
-
-section {
-  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 100vw;
-  height: 100vh;
-  padding: 50px 15%; }
-  section.section-1, section.section-2, section.section-3, section.section-4, section.section-5 {
-    background-image: radial-gradient(at center center, #0F2027 0%, #000 100%); }
-  section p {
-    color: white;
-    font-size: 14px;
-    letter-spacing: 1px; }
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
 
-hr {
-  background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
-  height: 1px;
-  margin-top: 5px; }
+body #socialmedia a {
+  cursor: pointer;
+}
 
-.triangle {
-  width: 50%;
-  background-color: #0F2027;
-  height: 100%; }
+body #socialmedia a:hover {
+  text-decoration: none;
+}
 
-.section-2 {
-  padding: 0; }
+body #socialmedia a img {
+  max-width: 15px;
+  margin: 10px 0;
+}
 
-.typewriter {
-  width: 235px; }
+body h1 {
+  font-family: "Bebas Neue", cursive;
+  line-height: 0.8;
+  margin: 0;
+  font-size: 80px;
+  letter-spacing: 10px;
+}
 
-.typewriter h2 {
-  color: #fff;
-  overflow: hidden;
-  /* Ensures the content is not revealed until the animation */
-  border-right: .15em solid white;
-  /* The typwriter cursor */
-  white-space: nowrap;
-  /* Keeps the content on a single line */
-  margin: 0 auto;
-  /* Gives that scrolling effect as the typing happens */
-  letter-spacing: .15em;
-  /* Adjust as needed */
-  animation: typing 1s steps(9, end), blink-caret 1s step-end infinite; }
+body h2 {
+  font-family: "Frank Ruhl Libre", serif;
+  color: #5C5C5C;
+  font-weight: 400;
+  text-align: right;
+  font-size: 35px;
+}
 
-/* The typing effect */
-@keyframes typing {
-  from {
-    width: 0; }
-  to {
-    width: 100%; } }
-/* The typewriter cursor effect */
-@keyframes blink-caret {
-  from, to {
-    border-color: transparent; }
-  50% {
-    border-color: white; } }
+body .line {
+  border-bottom: 1px solid #BCBCBC;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 0;
+}
 
+body .margin {
+  padding: 100px 0 0 100px;
+}
+
+body .whoami {
+  text-align: right;
+  color: #5C5C5C;
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  width: 90%;
+  margin-top: 20px;
+  margin-left: 10%;
+  line-height: 1.7;
+}
+
+body .icon {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .icon img {
+  max-width: 30px;
+}
+
+body .icon p {
+  margin: 0;
+  text-align: center;
+  max-width: 80%;
+  font-size: 13px;
+}
 /*# sourceMappingURL=style.css.map */

@@ -1,351 +1,139 @@
+// Color 
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+$lightgrey: #efefef;
+$darkgrey: #1C1C21;
+$mediumgrey: #5C5C5C;
+$line: #BCBCBC;
 
+// Fonts
 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Frank+Ruhl+Libre:wght@300;400;500&family=Karla:wght@300;400;500&family=Montserrat:wght@300;400;500;600;700;800&display=swap');
 
-/*-------------------------------------------------------------------------------------------------------------
- PAGE INTRO  
- --------------------------------------------------------------------------------------------------------------*/
+$bebas: 'Bebas Neue', cursive;
+$montserrat: 'Montserrat', sans-serif;
+$frank:  'Frank Ruhl Libre', serif;
+$karla: 'Karla', sans-serif;
 
-.introdapagina{
-position: fixed;
-top: 0;
-left: 0;
-width: 100%;
-height: 100vh;
-background:#111;
-z-index: 9999;
-
-  .loading-text {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-    text-align: center;
-    width: 100%;
-    height: 100px;
-    line-height: 100px;
-    z-index: 9999;
-  
-      span {
-      display: inline-block;
-      margin: 0 5px;
-      color: #fff;
-      font-family: "Bebas";
-
-      
-        @for $i from 0 through 26 {
-          &:nth-child(#{$i + 1}) {
-            filter: blur(0px);
-            animation: blur-text 1s (#{$i/5})+s infinite linear alternate;
-            }
-          }
-      }
-  } 
-}
-
-@keyframes blur-text {
-	0% {filter: blur(0px);}
-	100% {filter: blur(4px);}
-}
-  
-
-// Main Code 
-
-$base-duration: 250ms;
-
-// Colors
-$primary: #4DB6AC;
-$accent: #46627f;
-$white: whitesmoke;
-$black: #333;
-// Breakpoints
-$sm: 20rem;
-$med: 48rem;
-$lg: 64rem;
-
-*, *:before, *:after {
-	box-sizing: border-box;
-	outline: none;
-}
-
-html {
-	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 16px;
-	font-smooth: auto;
-	font-weight: 300;
-	line-height: 1.5;
-  color: #fff;
-  margin:0;
-  padding: 0;
-}
 
 body {
-	position: relative;
-  overflow: hidden;
-  margin:0;
-  padding: 0;
-  scroll-behavior: smooth;
-  font-family: 'Montserrat', sans-serif!important;
-  background: #0F2027;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
-  background: radial-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
+	background-color: $lightgrey;
+	padding-right: 100px;
 
-h2 {
-	margin: 0;
-	padding: 0;
-	color: $white;
-	font-size: 32px;
-	letter-spacing: 1px;
-	line-height: 1;
-  text-transform: uppercase;
-}
-
-a {
-	color: $white;
-	text-decoration: none;
-	transition: 0.25s;
-}
-
-button {
-	border: none;
-}
-
-.logo {
-	position: fixed;
-	top: 0;
-	left: 0;
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	width: 40px;
-	height: 40px;
-	padding: 10px;
-	background-color: rgba($white,0.1);
-	z-index: 9998;
-	span.icon {
-		position: relative;
-		display: block;
-		width: 20px;
-		height: 20px;
-		border: 2px solid $white;
-		border-radius: 50%;
-	}
-}
-
-
-.hamburger {
-	position: fixed;
-	top: 0;
-	right: 0;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	width: 40px;
-	height: 40px;
-	background: rgba(white,0.1);
-	z-index: 9999;
-	&.is-open {
-		span {
-			height: 0;
-			&:before {
-				transform: rotate(45deg);
-			}
-			&:after {
-				transform: rotate(-45deg);
-			}
-		}
-	}
-	span {
-		position: relative;
-		display: block;
-		width: 80%;
-		height: 2px;
-		background-color: $white;
-		border-radius: 99px;
-		&:before,
-		&:after {
-			position: absolute;
-			content: '';
-			left: 0;
-			width: 100%;
-			height: 2px;
-			background-color: $white;
-			transition: 0.25s;
-		}
-		&:before {
-			transform: translateY(-5px);
-		}
-		&:after {
-			transform: translateY(5px);
-		}
-	}
-}
-
-nav.main {
-	ul {
+	nav {
+		height: 100%;
+		width: 60px;
 		position: fixed;
 		top: 0;
+		right: 0;
+		background-color: white;
+		overflow-x: hidden;
+		padding: 20px;
 		display: flex;
+		justify-content: space-evenly;
+		flex-direction: column;
+
+
+		a {
+			font-family: $karla;
+			color: $darkgrey;
+			text-transform: uppercase;
+			writing-mode: vertical-rl;
+			text-orientation: mixed;
+			font-size: 12px;
+			-webkit-transform: rotate(-180deg);
+			font-weight: 500;
+
+			&:hover {
+				color: $darkgrey;
+				text-decoration: none;
+			}
+		}
+	  }
+
+	  #socialmedia {
+		height: 100%;
+		width: 40px;
+		position: fixed;
+		top: 0;
+		left: 0;
+		overflow-x: hidden;
+		padding: 20px;
+		display: flex;
+		justify-content: flex-end;
+		flex-direction: column;
+
+		a {
+			cursor: pointer;
+			&:hover {
+				text-decoration: none;
+			}
+
+			img {
+				max-width: 15px;
+				margin: 10px 0;
+			}
+		}
+	}
+
+	h1 {
+		font-family: $bebas;
+		line-height: 0.8;
+		margin: 0;
+		font-size: 80px;
+		letter-spacing: 10px;
+	}
+
+	h2 {
+		font-family: $frank;
+		color: $mediumgrey;
+		font-weight: 400;
+		text-align: right;
+		font-size: 35px;
+	}
+
+	.line {
+		border-bottom: 1px solid $line;
+		display: flex;
+		justify-content: flex-end;
+		flex-direction: column;
+		padding: 0;
+	}
+
+	.margin {
+		padding: 100px 0 0 100px;
+	}
+
+	.whoami {
+		text-align: right;
+		color: $mediumgrey;
+		font-family: $montserrat;
+		font-size: 13px;
+		width: 90%;
+		margin-top: 20px;
+		margin-left: 10%;
+		line-height: 1.7;
+	}
+
+	.icon {
 		flex-direction: column;
 		align-items: center;
-		justify-content: center;
-		width: 100%;
-		height: 100vh;
-		margin: 0;
-		padding: 20px;
-		background-color: rgba(black,0.9);
-		list-style-type: none;
-		transition: 0.25s;
-		opacity: 0;
-		visibility: hidden;
-    z-index: 9998;
-    
-		&.is-open {
-			opacity: 1;
-      visibility: visible;
-      
-			li {
-				opacity: 1;
-				&:nth-of-type(odd) {
-					transform: translateX(0%);
-				}
-				&:nth-of-type(even) {
-					transform: translateX(0%);
-				}
-			}
-    }
-    
-		li {
-			position: relative;
-			display: flex;
-			align-items: center;
-			justify-content: center;
+		padding: 0 100px;
+
+		img {
+			max-width: 30px;
+		}
+
+		hr {
+			border-top: 1px solid red;
 			width: 100%;
-			margin-bottom: 2px;
-			opacity: 0;
-      transition: 0.25s;
-      
-			&:before {
-				position: absolute;
-				content: '';
-				width: 0;
-				height: 100%;
-				background-color: transparent;
-				transition: 0.25s;
-      }
-      
-			&:nth-of-type(odd) {
-				transform: translateX(-50%);
-				&:before {
-					left: 0;
-				}
-			}
-			&:nth-of-type(even) {
-				transform: translateX(50%);
-				&:before {
-					right: 0;
-				}
-			}
-			&:hover {
-				&:nth-of-type(odd),
-				&:nth-of-type(even){
-					&:before {
-						width: 100%;
-					}
-				}
-			}
-			&.menu-title {
-				color: white;
-				font-size: 24px;
-				font-weight: bold;
-			}
-			a {
-				position: relative;
-				width: 100%;
-				font-size: 4vh;
-				font-weight: bold;
-        text-align: center;
-        text-decoration: none;
-        font-family: 'Montserrat', sans-serif;
-        letter-spacing: 6px;
-        text-transform: uppercase;
-        margin:10px;
-        &:hover {
-          color: #2C5364;
-        }
-			}
+		}
+
+		p {
+			margin: 0;
+			text-align: center;
+			font-size: 13px;
+			color: $middlegrey;
 		}
 	}
 }
 
-section {
-	position: relative;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	width: 100vw;
-  height: 100vh;
-  padding: 50px 15%;
-
-  &.section-1,
-  &.section-2,
-  &.section-3,
-  &.section-4,
-  &.section-5 {
-    background-image: radial-gradient(at center center, #0F2027 0%, #000 100%);
-	}
-
-	p {
-    color: white;
-    font-size: 14px;
-    letter-spacing: 1px;
-	}
-}
-
-hr {
-  background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
-  height: 1px;
-  margin-top: 5px;
-}
-
-.triangle {
-  width: 50%;
-  background-color: #0F2027;
-  height: 100%;
-}
-
-.section-2 {
-  padding:0;
-}
-
-.typewriter {
-	width: 235px;
-}
-
-.typewriter h2 {
-	color: #fff;
-	overflow: hidden; /* Ensures the content is not revealed until the animation */
-	border-right: .15em solid white; /* The typwriter cursor */
-	white-space: nowrap; /* Keeps the content on a single line */
-	margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-	letter-spacing: .15em; /* Adjust as needed */
-	animation: 
-	  typing 1s steps(9, end),
-	  blink-caret 1s step-end infinite;
-  }
-  
-  /* The typing effect */
-  @keyframes typing {
-	from { width: 0 }
-	to { width: 100% }
-  }
-  
-  /* The typewriter cursor effect */
-  @keyframes blink-caret {
-	from, to { border-color: transparent }
-	50% { border-color: white }
-  }
