@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Frank+Ruhl+Libre:wght@300;400;500&family=Karla:wght@300;400;500&family=Montserrat:wght@300;400;500;600;700;800&display=swap");
+body h2 {
+  text-align: center;
+}
+
+body h3 {
+  text-align: center;
+  color: #efefef;
+  font-size: 13px;
+  font-family: "Montserrat", sans-serif;
+}
+/*# sourceMappingURL=drawings.css.map */

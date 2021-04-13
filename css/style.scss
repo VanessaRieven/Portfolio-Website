@@ -1,23 +1,8 @@
-// Color 
-
-$lightgrey: #efefef;
-$darkgrey: #1C1C21;
-$mediumgrey: #5C5C5C;
-$line: #BCBCBC;
-
-// Fonts
-
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Frank+Ruhl+Libre:wght@300;400;500&family=Karla:wght@300;400;500&family=Montserrat:wght@300;400;500;600;700;800&display=swap');
-
-$bebas: 'Bebas Neue', cursive;
-$montserrat: 'Montserrat', sans-serif;
-$frank:  'Frank Ruhl Libre', serif;
-$karla: 'Karla', sans-serif;
-
+@import "variables";
 
 body {
 	background-color: $lightgrey;
-	padding-right: 100px;
+	padding-right: 150px;
 
 	nav {
 		height: 100%;
@@ -114,26 +99,36 @@ body {
 		line-height: 1.7;
 	}
 
-	.icon {
-		flex-direction: column;
-		align-items: center;
-		padding: 0 100px;
+	.split {
+		justify-content: space-between;
+		margin-top: 100px;
 
-		img {
-			max-width: 30px;
-		}
-
-		hr {
-			border-top: 1px solid red;
-			width: 100%;
-		}
-
-		p {
-			margin: 0;
-			text-align: center;
-			font-size: 13px;
-			color: $middlegrey;
+		.icon {
+			flex-direction: column;
+			align-items: center;
+			padding: 0 28px;
+	
+			img {
+				max-height: 25px;
+				margin-bottom: 10px;
+			}
+	
+			hr {
+				border-top: 2px solid $line;
+				width: 80%;
+				margin: 10px 0 5px 0;
+			}
+	
+			p {
+				margin: 0;
+				text-align: center;
+				font-size: 13px;
+				color: $mediumgrey;
+				width: 80%;
+			}
 		}
 	}
+
+
 }
 

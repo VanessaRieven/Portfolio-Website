@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Frank+Ruhl+Libre:wght@300;400;500&family=Karla:wght@300;400;500&family=Montserrat:wght@300;400;500;600;700;800&display=swap");
 body {
   background-color: #efefef;
-  padding-right: 100px;
+  padding-right: 150px;
 }
 
 body nav {
@@ -122,7 +122,14 @@ body .whoami {
   line-height: 1.7;
 }
 
-body .icon {
+body .split {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 100px;
+}
+
+body .split .icon {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -130,16 +137,25 @@ body .icon {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding: 0 28px;
 }
 
-body .icon img {
-  max-width: 30px;
+body .split .icon img {
+  max-height: 25px;
+  margin-bottom: 10px;
 }
 
-body .icon p {
+body .split .icon hr {
+  border-top: 2px solid #BCBCBC;
+  width: 80%;
+  margin: 10px 0 5px 0;
+}
+
+body .split .icon p {
   margin: 0;
   text-align: center;
-  max-width: 80%;
   font-size: 13px;
+  color: #5C5C5C;
+  width: 80%;
 }
 /*# sourceMappingURL=style.css.map */

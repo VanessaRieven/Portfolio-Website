@@ -1,0 +1,14 @@
+@import "variables";
+
+body {
+    h2 {
+        text-align: center;
+    }
+
+    h3 {
+        text-align: center;
+        color: $lightgrey;
+        font-size: 13px;
+        font-family: $montserrat;
+    }
+}
