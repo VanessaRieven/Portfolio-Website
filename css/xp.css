@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Frank+Ruhl+Libre:wght@300;400;500&family=Karla:wght@300;400;500&family=Montserrat:wght@300;400;500;600;700;800&display=swap");
+.squares {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 100px;
+}
+
+.squares .square {
+  border: 2px solid #e3e3e3;
+  width: 150px;
+  height: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 100px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  cursor: pointer;
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+
+.squares .square:hover {
+  opacity: 0.5;
+}
+
+.squares .square:hover > span {
+  opacity: 0.5;
+}
+
+.squares .square span {
+  text-align: center;
+  margin: auto;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  font-family: "Frank Ruhl Libre", serif;
+  color: #5C5C5C;
+  font-weight: 200;
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+/*# sourceMappingURL=xp.css.map */

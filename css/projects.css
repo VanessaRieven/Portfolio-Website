@@ -12,17 +12,24 @@ body h3 {
   font-weight: 200;
 }
 
-body .griddrawings {
+body .projectsgrid {
+  width: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   margin: 50px auto;
 }
 
-body .griddrawings .coluna {
+body .projectsgrid .coluna {
   width: 33.3%;
 }
 
-body .griddrawings img {
+body .projectsgrid img {
   -o-object-fit: contain;
      object-fit: contain;
   width: 100%;
@@ -30,7 +37,7 @@ body .griddrawings img {
   transition: 1s;
 }
 
-body .griddrawings img:hover {
+body .projectsgrid img:hover {
   opacity: 0.8;
 }
 
@@ -221,4 +228,4 @@ body .griddrawings img:hover {
 .animated-arrow > .main > .the-arrow {
   position: relative;
 }
-/*# sourceMappingURL=drawings.css.map */
+/*# sourceMappingURL=projects.css.map */
