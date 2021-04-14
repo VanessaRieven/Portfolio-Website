@@ -15,10 +15,7 @@ body {
         font-weight: 200;
     }
 
-    .projectsgrid {
-        width: 60%;
-        display: flex;
-        justify-content: center;
+    .designs {
         flex-wrap: wrap;
         margin: 50px auto;
 
@@ -231,6 +228,7 @@ $arrow-head-thickness: $shaft-thickness;
   
 
   
+  
 //   MODALS 
 
 #modal-container {
@@ -290,7 +288,14 @@ $arrow-head-thickness: $shaft-thickness;
                 font-family: $montserrat;
             }
         }
-    
+
+        a {
+            color: $mediumgrey;
+
+            &:hover {
+                color: $mediumgrey;
+            }
+        }
         
       }
     }
