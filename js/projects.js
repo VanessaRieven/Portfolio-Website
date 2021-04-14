@@ -48,22 +48,22 @@
                 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img class="d-block w-100" src="img/projects/671311516.gif">
+                        <a href="img/projects/671311516.gif" data-lightbox="ALIAS"><img class="d-block w-100" src="img/projects/671311516.gif"></a>
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100" src="img/projeto3/02-min.png">
+                        <a href="img/projeto3/02-min.png" data-lightbox="ALIAS"><img class="d-block w-100" src="img/projeto3/02-min.png"></a>
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100" src="img/projeto3/03-min.png">
+                        <a href="img/projeto3/03-min.png" data-lightbox="ALIAS"><img class="d-block w-100" src="img/projeto3/03-min.png"></a>
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100" src="img/projeto3/04-min.png">
+                        <a href="img/projeto3/04-min.png" data-lightbox="ALIAS"><img class="d-block w-100" src="img/projeto3/04-min.png"></a>
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100" src="img/projeto3/05-min.png">
+                        <a href="img/projeto3/05-min.png" data-lightbox="ALIAS"><img class="d-block w-100" src="img/projeto3/05-min.png"></a>
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100" src="img/projeto3/06-min.png">
+                        <a href="img/projeto3/06-min.png" data-lightbox="ALIAS"><img class="d-block w-100" src="img/projeto3/06-min.png"></a>
                     </div>
                     </div>
                     <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">

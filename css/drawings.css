@@ -31,7 +31,8 @@ body .griddrawings img {
 }
 
 body .griddrawings img:hover {
-  opacity: 0.8;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
 }
 
 .the-arrow {

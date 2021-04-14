@@ -23,6 +23,7 @@ body .designs .coluna {
 }
 
 body .designs img {
+  cursor: pointer;
   -o-object-fit: contain;
      object-fit: contain;
   width: 100%;
@@ -31,7 +32,8 @@ body .designs img {
 }
 
 body .designs img:hover {
-  opacity: 0.8;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
 }
 
 .the-arrow {
@@ -230,7 +232,7 @@ body .designs img:hover {
   left: 0;
   -webkit-transform: scale(0);
           transform: scale(0);
-  z-index: 99999;
+  z-index: 9999;
   overflow: auto;
 }
 

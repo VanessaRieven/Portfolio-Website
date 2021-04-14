@@ -47,25 +47,25 @@
             <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" >
                 <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="d-block w-100" src="img/projeto2/003-min.jpg">
+                    <a href="img/projeto2/003-min.jpg" data-lightbox="stradi"><img class="d-block w-100" src="img/projeto2/003-min.jpg"></a>
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="img/projeto2/002-min.jpg">
+                    <a href="img/projeto2/002-min.jpg" data-lightbox="stradi"><img class="d-block w-100" src="img/projeto2/002-min.jpg"></a>
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="img/projeto2/004-min.jpg">
+                    <a href="img/projeto2/004-min.jpg" data-lightbox="stradi"><img class="d-block w-100" src="img/projeto2/004-min.jpg"></a>
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="img/projeto2/006-min.jpg">
+                    <a href="img/projeto2/006-min.jpg" data-lightbox="stradi"><img class="d-block w-100" src="img/projeto2/006-min.jpg">></a>
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="img/projeto2/007-min.jpg">
+                    <a href="img/projeto2/007-min.jpg" data-lightbox="stradi"><img class="d-block w-100" src="img/projeto2/007-min.jpg"></a>
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="img/projeto2/008-min.jpg">
+                    <a href="img/projeto2/008-min.jpg" data-lightbox="stradi"><img class="d-block w-100" src="img/projeto2/008-min.jpg"></a>
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="img/projeto2/009-min.jpg">
+                    <a href="img/projeto2/009-min.jpg" data-lightbox="stradi"><img class="d-block w-100" src="img/projeto2/009-min.jpg"></a>
                 </div>
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -113,52 +113,39 @@
             <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="d-block w-100" src="img/projeto1/01-min.jpg">
+                    <a href="img/projeto1/01-min.jpg" data-lightbox="v1"><img class="d-block w-100" src="img/projeto1/01-min.jpg"></a>
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="img/projeto1/03.gif">
-
+                    <a href="img/projeto1/03.gif" data-lightbox="v1"><img class="d-block w-100" src="img/projeto1/03.gif"></a>
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="img/projeto1/04-min.png">
-
+                    <a href="img/projeto1/04-min.png" data-lightbox="v1"><img class="d-block w-100" src="img/projeto1/04-min.png"></a>
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="img/projeto1/05-min.png">
-
+                    <a href="img/projeto1/05-min.png" data-lightbox="v1"><img class="d-block w-100" src="img/projeto1/05-min.png"></a>
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="img/projeto1/06-min.png">
-
+                    <a href="img/projeto1/06-min.png" data-lightbox="v1"><img class="d-block w-100" src="img/projeto1/06-min.png"></a>
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="img/projeto1/07-min.png">
-
+                    <a href="img/projeto1/07-min.png" data-lightbox="v1"> <img class="d-block w-100" src="img/projeto1/07-min.png"></a>
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="img/projeto1/08.gif">
-
+                    <a href="img/projeto1/08.gif" data-lightbox="v1"><img class="d-block w-100" src="img/projeto1/08.gif"></a>
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="img/projeto1/09-min.png">
-
+                    <a href="img/projeto1/09-min.png" data-lightbox="v1"><img class="d-block w-100" src="img/projeto1/09-min.png"></a>
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="img/projeto1/10-min.jpg">
-
+                    <a href="img/projeto1/10-min.jpg" data-lightbox="v1"><img class="d-block w-100" src="img/projeto1/10-min.jpg"></a>
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="img/projeto1/11-min.jpg">
-
+                    <a href="img/projeto1/11-min.jpg" data-lightbox="v1"><img class="d-block w-100" src="img/projeto1/11-min.jpg"></a>
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="img/projeto1/12-min.png">
-
+                    <a href="img/projeto1/12-min.png" data-lightbox="v1"><img class="d-block w-100" src="img/projeto1/12-min.png"></a>
                 </div>
-                <div class="carousel-item">
-                    <img class="d-block w-100" src="img/projeto1/13-min.jpg">
-
-                </div>
+             
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -205,7 +192,7 @@
             <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img class="d-block w-100" src="img/projects/v2.jpg">
+                        <a href="img/projects/v2.jpg" data-lightbox="v2"><img class="d-block w-100" src="img/projects/v2.jpg"></a>
                     </div>
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -222,6 +209,8 @@
         <div class="col-lg-6 offset-lg-1 center">
             <span>
                 This was a project done for University, where we had to create a website of our choice with the languages and frameworks we learned. I wanted to switch the design of my website for a while and toke the change to work on it while doing something for Uni.
+                <br><br>
+                More prints coming soon.
             </span>
         </div>
     </div>
@@ -250,7 +239,7 @@
             <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img class="d-block w-100" src="img/projects/v3.jpg">
+                        <a href="img/projects/v3.jpg" data-lightbox="v3"><img class="d-block w-100" src="img/projects/v3.jpg"></a>
                     </div>
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -267,6 +256,8 @@
         <div class="col-lg-6 offset-lg-1 center">
             <span>
                 This is the current version of my portfolio website. I wanted to create this as a base to create projects in other languages and frameworks I'm currently learning like React, NodeJS and Django.
+                <br><br>
+                More prints coming soon.
             </span>
         </div>
     </div>
