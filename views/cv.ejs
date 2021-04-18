@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <%- include("partials/head"); %>
+    <link rel="stylesheet" type="text/css" href="stylesheets/drawings.css">
+	<link rel="stylesheet" type="text/css" href="stylesheets/xp.css">
+</head>
+<body>
+    <%- include("partials/loader"); %>
+    <%- include("partials/navs"); %>
+    
+    <!-- MODALS  -->
+    <div id="modal-container">
+        <div class="modal-background">
+            <div class="modals">
+            </div>
+        </div>
+    </div>
+
+    <!-- CONTENT  -->
+ 
+    <div class="col-lg-12 margin">
+        <h2>XP</h2>
+        <h3>Timeline and Skills</h3>
+    </div>
+    <div class="col-lg-12 row squares" >
+        <div class="square" id="timeline">
+            <span>Timeline</span>
+        </div>
+        <div class="square" id="skills">
+            <span>Skills</span>
+        </div>
+    </div>
+
+    <%- include("partials/bgeffects"); %>
+	<%- include("partials/scripts"); %>
+    <script src="javascripts/cv.js"></script> 
+</body>
+</html>
