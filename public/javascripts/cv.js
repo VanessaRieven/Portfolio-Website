@@ -11,7 +11,7 @@ $('body').on('click', '.square', function() {
     if ($(this).attr('id') == "timeline") {
         console.log("timeline")
         $('.modals').html(`
-        <div class="col-lg-8 offset-lg-2 row justify-content-between">
+        <div class="col-lg-8 offset-lg-2 col-md-12 row justify-content-between">
             <span class='animated-arrow goback'>
                 <span class='the-arrow -left'>
                     <span class='shaft'></span>
@@ -41,7 +41,7 @@ $('body').on('click', '.square', function() {
                 </span>
             </span>
         </div>
-        <div class="col-lg-8 offset-lg-2 row">
+        <div class="col-lg-8 offset-lg-2 col-md-12 row">
             <img class="timeline" src="img/timeline.png">
         </div>
     `);
@@ -49,7 +49,7 @@ $('body').on('click', '.square', function() {
     } else {
          console.log("skills");
          $('.modals').html(`
-         <div class="col-lg-8 offset-lg-2 row justify-content-between">
+         <div class="col-lg-8 offset-lg-2 col-md-12 row justify-content-between">
          <span class='animated-arrow goback'>
              <span class='the-arrow -left'>
                  <span class='shaft'></span>
@@ -78,7 +78,7 @@ $('body').on('click', '.square', function() {
              </span>
          </span>
          </div>
-         <div class="col-lg-8 offset-lg-2 row">
+         <div class="col-lg-8 offset-lg-2 col-md-12 row">
          <div class="coluna">
              <h3>Programming</h3>
          
@@ -212,6 +212,7 @@ $('body').on('click', '.square', function() {
         $('#modal-container').addClass('out');
         $('body').removeClass('modal-active');
         $('.modals').css('background-color', '#5C5C5C');
+        $('.modals').html('');
     } else if ($(this).hasClass('goskills'))  {
         $('#skills').click();
     } else if ($(this).hasClass('gotimeline')) {

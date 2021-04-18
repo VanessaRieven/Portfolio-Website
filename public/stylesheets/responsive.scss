@@ -1,0 +1,157 @@
+
+@media only screen and (max-width: 1080px){
+
+    body {
+        padding-right: 0;
+
+        .margin {
+            padding: 100px 10px 20px 10px;
+            margin: 0;
+        }
+
+        nav {
+            height: 60px;
+            width: 100%;
+            position: fixed;
+            left: 0;
+            top: 0;
+            right: auto;
+            flex-direction:initial;
+            z-index:9;
+            justify-content: space-between;
+
+            a {
+                writing-mode:horizontal-tb;
+                text-orientation:inherit; 
+                -webkit-transform: rotate(0deg); 
+            }
+        }
+
+        #socialmedia {
+            height: 50px;
+            background: white;
+            width: 100%;
+            top: initial;
+            bottom: 0;
+            left: 0;
+            padding: 6px 20px;
+            justify-content: space-between;
+            flex-direction: initial;
+        }
+
+        .line {
+            margin-top: 50px;
+        }
+
+        .whoami {
+            padding: 20px 10px;
+            margin:0;
+        }
+
+        .split {
+            padding: 50px 10px;
+            flex-direction: column;
+            margin:0;
+
+            .icon {
+                width: 100%;
+                margin:auto;
+            }
+        }
+    }
+
+    .animated-arrow {
+        margin-bottom: 100px!important;
+    }
+
+    .griddrawings {
+        margin: 20px auto!important;
+
+        .coluna {
+            width: 100%!important;
+        }
+    }
+
+    .designs {
+        margin: 20px auto 100px auto !important;
+
+        .coluna {
+            width: 100%!important;
+        }
+    }
+
+    #modal-container {
+        overflow-x: hidden!important;
+        background: #efefef;
+
+        .modal-background .modals {
+            padding: 20px 20px 100px 10px !important;
+            width: auto!important;
+            height: auto!important;
+    
+            .space {
+                margin: 30px 0 0 0!important;
+                padding:0 !important;
+            }
+        }
+
+        h2 {
+            margin-top: 30px!important;
+        }
+
+        h3 {
+            margin: 0 0 30px 0!important;
+        }
+    }
+
+    .projectsgrid {
+        width: 100%!important;
+        margin: 0px auto!important;
+
+        .coluna {
+            width: 90%!important;
+        }
+    }
+
+    .arrow--top {
+        z-index: -1;
+    }
+
+    .arrow--bottom {
+        z-index: -1;
+        right: 10px;
+    }
+
+    .carousel {
+        margin-bottom: 50px;
+    }
+
+    .squares {
+        margin: 50px 0 100px 0!important;
+    }
+
+    .col-md-12 {
+        margin: 0;
+        padding: 0;
+    }
+
+    #modal-container .modal-background .modals .coluna {
+        width: 100%!important;
+        margin: 0 auto!important;
+
+        .goback, .gotimeline {
+            margin-bottom: 0!important;
+        }
+
+    }
+
+    .timeline {
+        max-width: 100%!important;
+        margin: 0px auto!important;
+    }
+
+    .goback {
+        margin-bottom: 30px!important;
+    }
+}
+

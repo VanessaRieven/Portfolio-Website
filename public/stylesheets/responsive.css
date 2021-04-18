@@ -1,0 +1,140 @@
+@media only screen and (max-width: 1080px) {
+  body {
+    padding-right: 0;
+  }
+  body .margin {
+    padding: 100px 10px 20px 10px;
+    margin: 0;
+  }
+  body nav {
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: auto;
+    -webkit-box-orient: initial;
+    -webkit-box-direction: initial;
+        -ms-flex-direction: initial;
+            flex-direction: initial;
+    z-index: 9;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  body nav a {
+    -webkit-writing-mode: horizontal-tb;
+        -ms-writing-mode: lr-tb;
+            writing-mode: horizontal-tb;
+    text-orientation: inherit;
+    -webkit-transform: rotate(0deg);
+  }
+  body #socialmedia {
+    height: 50px;
+    background: white;
+    width: 100%;
+    top: initial;
+    bottom: 0;
+    left: 0;
+    padding: 6px 20px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-orient: initial;
+    -webkit-box-direction: initial;
+        -ms-flex-direction: initial;
+            flex-direction: initial;
+  }
+  body .line {
+    margin-top: 50px;
+  }
+  body .whoami {
+    padding: 20px 10px;
+    margin: 0;
+  }
+  body .split {
+    padding: 50px 10px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 0;
+  }
+  body .split .icon {
+    width: 100%;
+    margin: auto;
+  }
+  .animated-arrow {
+    margin-bottom: 100px !important;
+  }
+  .griddrawings {
+    margin: 20px auto !important;
+  }
+  .griddrawings .coluna {
+    width: 100% !important;
+  }
+  .designs {
+    margin: 20px auto 100px auto !important;
+  }
+  .designs .coluna {
+    width: 100% !important;
+  }
+  #modal-container {
+    overflow-x: hidden !important;
+    background: #efefef;
+  }
+  #modal-container .modal-background .modals {
+    padding: 20px 20px 100px 10px !important;
+    width: auto !important;
+    height: auto !important;
+  }
+  #modal-container .modal-background .modals .space {
+    margin: 30px 0 0 0 !important;
+    padding: 0 !important;
+  }
+  #modal-container h2 {
+    margin-top: 30px !important;
+  }
+  #modal-container h3 {
+    margin: 0 0 30px 0 !important;
+  }
+  .projectsgrid {
+    width: 100% !important;
+    margin: 0px auto !important;
+  }
+  .projectsgrid .coluna {
+    width: 90% !important;
+  }
+  .arrow--top {
+    z-index: -1;
+  }
+  .arrow--bottom {
+    z-index: -1;
+    right: 10px;
+  }
+  .carousel {
+    margin-bottom: 50px;
+  }
+  .squares {
+    margin: 50px 0 100px 0 !important;
+  }
+  .col-md-12 {
+    margin: 0;
+    padding: 0;
+  }
+  #modal-container .modal-background .modals .coluna {
+    width: 100% !important;
+    margin: 0 auto !important;
+  }
+  #modal-container .modal-background .modals .coluna .goback, #modal-container .modal-background .modals .coluna .gotimeline {
+    margin-bottom: 0 !important;
+  }
+  .timeline {
+    max-width: 100% !important;
+    margin: 0px auto !important;
+  }
+  .goback {
+    margin-bottom: 30px !important;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */

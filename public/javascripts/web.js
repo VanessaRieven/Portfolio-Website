@@ -6,11 +6,8 @@
         $('#modal-container').addClass('out');
         $('body').removeClass('modal-active');
         $('.modals').css('background-color', '#5C5C5C');
-    } else if ($(this).hasClass('goskills'))  {
-        $('#skills').click();
-    } else if ($(this).hasClass('gotimeline')) {
-        $('#timeline').click();
-    }
+        $('.modals').html('');
+    } 
 });
 
 
