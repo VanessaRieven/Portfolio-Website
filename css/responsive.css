@@ -6,6 +6,9 @@
     padding: 100px 10px 20px 10px;
     margin: 0;
   }
+  body .m111 .line {
+    margin-top: 0px !important;
+  }
   body nav {
     height: 60px;
     width: 100%;
@@ -45,7 +48,7 @@
         -ms-flex-direction: initial;
             flex-direction: initial;
   }
-  body .line {
+  body .text {
     margin-top: 50px;
   }
   body .whoami {
