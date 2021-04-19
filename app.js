@@ -10,7 +10,7 @@ var indexRouter = require('./routes/index');
 
 
 const mongoose = require('mongoose');
-mongoose.connect('mongodb+srv://VanessaRieven:1Akira_lp@sitev3.l71pa.mongodb.net/myFirstDatabase?retryWrites=true&w=majority', {
+mongoose.connect('mongodb+srv://VanessaRieven:1Akira_lp@sitev3.l71pa.mongodb.net/SiteV3?retryWrites=true&w=majority', {
   useNewUrlParser: true
 });
 
